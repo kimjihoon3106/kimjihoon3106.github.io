@@ -1,0 +1,24 @@
+title: Kim Ji Hoon
+description: Student at Gwangju Software Meister High School
+url: "https://kimjihoon3106.github.io"
+baseurl: ""
+
+author:
+  name: Kim Ji Hoon
+  email: kimjihoon3106@gmail.com
+
+github_username: kimjihoon3106
+email: kimjihoon3106@gmail.com
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
