@@ -655,6 +655,25 @@ html[data-theme="light"] .icon-sun,
 html:not([data-theme]) .icon-sun { display: none; }
 html[data-theme="dark"] .icon-moon { display: none; }
 
+/* Hit counter */
+.hit-counter {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+  z-index: 10;
+}
+
+.hit-counter:hover {
+  opacity: 1;
+}
+
+.hit-counter img {
+  height: 18px;
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .layout {
